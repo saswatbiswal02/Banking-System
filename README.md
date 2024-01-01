@@ -99,7 +99,7 @@ int main()
         case 3:
             cout << "Enter Account Number:";
             cin >> accountNumber;
-            cout << "Enter Balance:";
+            cout << "Enter Amount to be Deposited:";
             cin >> amount;
             acc = b.Deposit(accountNumber, amount);
             cout << endl
@@ -109,7 +109,7 @@ int main()
         case 4:
             cout << "Enter Account Number:";
             cin >> accountNumber;
-            cout << "Enter Balance:";
+            cout << "Enter Amount to be Withdrawn:";
             cin >> amount;
             acc = b.Withdraw(accountNumber, amount);
             cout << endl
